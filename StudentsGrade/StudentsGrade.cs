@@ -47,7 +47,7 @@ namespace StudentsGrade
                         stu.Chi = chi;
                         stu.Eng = eng;
                         stu.Math = math;
-
+                        
                         AddStudentData(stu);
 
                         btnStatistics.Enabled = true;
