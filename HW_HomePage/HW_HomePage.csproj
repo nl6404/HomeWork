@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA523CA0-2270-4790-8EFB-F6C456839FCF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>HW_HomePage</RootNamespace>
+    <AssemblyName>HW_HomePage</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HW_Alarm\HW_Alarm.csproj">
+      <Project>{59450F47-F746-4537-8561-78B115D97406}</Project>
+      <Name>HW_Alarm</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_ForDoWhile\HW_ForDoWhile.csproj">
+      <Project>{B62472EC-8608-40CD-A8CC-904296EA3D09}</Project>
+      <Name>HW_ForDoWhile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_Guess\HW_Guess.csproj">
+      <Project>{29C2C17F-F910-4875-A977-1FA3C76FA846}</Project>
+      <Name>HW_Guess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_Hello\HW_Hello.csproj">
+      <Project>{2A744E80-0D87-46DA-8F4B-5B34DADF48D9}</Project>
+      <Name>HW_Hello</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_Loan\HW_Loan.csproj">
+      <Project>{28753801-69EE-4C21-B249-92E28B0E4174}</Project>
+      <Name>HW_Loan</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_MyClac\HW_MyClac.csproj">
+      <Project>{B1B83488-E3E6-43C9-9D94-40196A9497E8}</Project>
+      <Name>HW_MyClac</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_Notepad\HW_Notepad.csproj">
+      <Project>{CB721B9D-F3D3-4AEC-9534-5418C20858AC}</Project>
+      <Name>HW_Notepad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_PictureViwer\HW_PictureViwer.csproj">
+      <Project>{576E1B0D-F116-44CA-9FC4-095660F92A70}</Project>
+      <Name>HW_PictureViwer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_POS\HW_POS.csproj">
+      <Project>{64C0DD8E-4676-49EF-83FE-3635E640B1BB}</Project>
+      <Name>HW_POS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_ScreenSaver\HW_ScreenSaver.csproj">
+      <Project>{054F811B-A2C3-4564-932B-98FEEAC46145}</Project>
+      <Name>HW_ScreenSaver</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_Studen_StructFrom\HW_Studen_StructFrom.csproj">
+      <Project>{4107B06D-5D7A-41DD-ACB0-C3FB1EC49960}</Project>
+      <Name>HW_Studen_StructFrom</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HW_小畫家\HW_小畫家.csproj">
+      <Project>{33993326-86B1-4594-B602-FB521144B36E}</Project>
+      <Name>HW_小畫家</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StudentsGrade\HW_StudentsGrade.csproj">
+      <Project>{2421E938-6EF0-4C2C-889E-CF1F8979602E}</Project>
+      <Name>HW_StudentsGrade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XOGame\HW_XOGame.csproj">
+      <Project>{8C33E138-7EF7-48C4-AE7B-406A7A29A4F0}</Project>
+      <Name>HW_XOGame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
