@@ -42,12 +42,25 @@ namespace HW_Studen_StructFrom
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            
             int Chi = 0;
             int Eng = 0;
             int Math = 0;
             bool isNum = int.TryParse(txtChi.Text, out Chi)
                       && int.TryParse(txtEng.Text, out Eng)
                       && int.TryParse(txtMath.Text, out Math);
+
+
+            if (!(txtName.Text == ""))
+            {
+                string name = txtName.Text;
+            }
+            else
+            {
+                MessageBox.Show("尚未輸入姓名!");
+                return;
+            }
+
 
             if (isNum)
             {
@@ -64,7 +77,7 @@ namespace HW_Studen_StructFrom
             }
             else
             {
-                MessageBox.Show("輸入數值有誤");                
+                MessageBox.Show("成績輸入數值有誤");                
                 txtName.Clear();
                 txtChi.Clear();
                 txtEng.Clear();

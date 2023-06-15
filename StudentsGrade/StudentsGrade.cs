@@ -128,14 +128,14 @@ namespace StudentsGrade
 
         private void btnRandom20_Click(object sender, EventArgs e)
         {
-            int additionalDataCount = 20;
+            int addCount = 20;
             if (Memory())
             {
                 return;
             }
 
-            int remainingCapacity = 100 - Students.Count;
-            int newDataCount = Math.Min(additionalDataCount, remainingCapacity);
+            int allCount = 100 - Students.Count;
+            int newDataCount = Math.Min(addCount, allCount);
 
             Random random = new Random();
 
@@ -149,10 +149,9 @@ namespace StudentsGrade
 
                 studentCount++;
 
-                AddStudentData(stu);
-
-                btnStatistics.Enabled = true;
+                AddStudentData(stu);                
             }
+            btnStatistics.Enabled = true;
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -165,8 +164,8 @@ namespace StudentsGrade
             btnStatistics.Enabled = false;
 
             // 清空顯示資料的 labdata 控制項
-            labdata.Text = string.Empty;
-            labStatistics.Text = string.Empty;
+            labdata.Text = "";
+            labStatistics.Text = "";
         }
 
         private void btnStatistics_Click(object sender, EventArgs e)
@@ -176,7 +175,7 @@ namespace StudentsGrade
                 MessageBox.Show("目前沒有學生資料可供統計");
                 return;
             }
-
+            
             int totalChinese = 0;
             int totalEnglish = 0;
             int totalMath = 0;

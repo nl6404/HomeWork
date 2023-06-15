@@ -241,7 +241,7 @@ namespace HW_ForDoWhile
         {
             string[] arr0711_Str = {"mother張", "emma", "迪克蕭", "J40", "Candy",
                                     "Cindy", "Cocount", "Motherfacker"};
-            string longstring = string.Empty;
+            string longstring = "";
             int maxlength = 0;
             foreach (string str in arr0711_Str)
             {

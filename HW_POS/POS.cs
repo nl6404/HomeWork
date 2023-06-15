@@ -76,8 +76,12 @@ namespace HW_POS
 
         private void Menulist()
         {
-            String Menulist = string.Concat(array[0]+ array[1] + array[2] + array[3]);
-            txtMenuList.Text = Menulist;
+            //String Menulist = array[0]+ array[1] + array[2] + array[3];
+            //String Menulist = string.Join("",array);
+            
+            //txtMenuList.Text = Menulist;
+            
+            txtMenuList.Text = string.Join("", array);
         }
 
         private void btnClear_Click(object sender, EventArgs e)

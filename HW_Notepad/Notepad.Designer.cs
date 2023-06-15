@@ -111,7 +111,7 @@
             this.說明HToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(780, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(780, 27);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -129,7 +129,7 @@
             this.toolStripSeparator2,
             this.結束XToolStripMenuItem});
             this.檔案FToolStripMenuItem.Name = "檔案FToolStripMenuItem";
-            this.檔案FToolStripMenuItem.Size = new System.Drawing.Size(71, 26);
+            this.檔案FToolStripMenuItem.Size = new System.Drawing.Size(71, 23);
             this.檔案FToolStripMenuItem.Text = "檔案(&F)";
             // 
             // 新增NToolStripMenuItem
@@ -222,7 +222,7 @@
             this.toolStripSeparator6,
             this.搜尋取代ToolStripMenuItem});
             this.編輯EToolStripMenuItem.Name = "編輯EToolStripMenuItem";
-            this.編輯EToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.編輯EToolStripMenuItem.Size = new System.Drawing.Size(71, 23);
             this.編輯EToolStripMenuItem.Text = "編輯(&E)";
             // 
             // 復原UToolStripMenuItem
@@ -305,7 +305,7 @@
             this.自訂CToolStripMenuItem,
             this.選項OToolStripMenuItem});
             this.工具TToolStripMenuItem.Name = "工具TToolStripMenuItem";
-            this.工具TToolStripMenuItem.Size = new System.Drawing.Size(71, 26);
+            this.工具TToolStripMenuItem.Size = new System.Drawing.Size(71, 23);
             this.工具TToolStripMenuItem.Text = "工具(&T)";
             // 
             // 自訂CToolStripMenuItem
@@ -330,7 +330,7 @@
             this.自動換行ToolStripMenuItem,
             this.快選顏色ToolStripMenuItem});
             this.格式ToolStripMenuItem.Name = "格式ToolStripMenuItem";
-            this.格式ToolStripMenuItem.Size = new System.Drawing.Size(77, 26);
+            this.格式ToolStripMenuItem.Size = new System.Drawing.Size(77, 23);
             this.格式ToolStripMenuItem.Text = "格式(M)";
             // 
             // 顏色ToolStripMenuItem
@@ -416,7 +416,7 @@
             this.toolStripSeparator5,
             this.關於AToolStripMenuItem});
             this.說明HToolStripMenuItem.Name = "說明HToolStripMenuItem";
-            this.說明HToolStripMenuItem.Size = new System.Drawing.Size(74, 26);
+            this.說明HToolStripMenuItem.Size = new System.Drawing.Size(74, 23);
             this.說明HToolStripMenuItem.Text = "說明(&H)";
             // 
             // 內容CToolStripMenuItem
@@ -464,7 +464,7 @@
             this.貼上PToolStripButton,
             this.toolStripSeparator9,
             this.說明LToolStripButton});
-            this.toolStrip2.Location = new System.Drawing.Point(0, 28);
+            this.toolStrip2.Location = new System.Drawing.Point(0, 27);
             this.toolStrip2.Name = "toolStrip2";
             this.toolStrip2.Size = new System.Drawing.Size(780, 27);
             this.toolStrip2.TabIndex = 2;
@@ -476,7 +476,7 @@
             this.新增NToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("新增NToolStripButton.Image")));
             this.新增NToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.新增NToolStripButton.Name = "新增NToolStripButton";
-            this.新增NToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.新增NToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.新增NToolStripButton.Text = "新增(&N)";
             this.新增NToolStripButton.Click += new System.EventHandler(this.新增NToolStripButton_Click);
             // 
@@ -486,7 +486,7 @@
             this.開啟OToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("開啟OToolStripButton.Image")));
             this.開啟OToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.開啟OToolStripButton.Name = "開啟OToolStripButton";
-            this.開啟OToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.開啟OToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.開啟OToolStripButton.Text = "開啟(&O)";
             this.開啟OToolStripButton.Click += new System.EventHandler(this.開啟OToolStripButton_Click);
             // 
@@ -496,7 +496,7 @@
             this.儲存SToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("儲存SToolStripButton.Image")));
             this.儲存SToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.儲存SToolStripButton.Name = "儲存SToolStripButton";
-            this.儲存SToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.儲存SToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.儲存SToolStripButton.Text = "儲存(&S)";
             this.儲存SToolStripButton.Click += new System.EventHandler(this.儲存SToolStripButton_Click);
             // 
@@ -506,13 +506,13 @@
             this.列印PToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("列印PToolStripButton.Image")));
             this.列印PToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.列印PToolStripButton.Name = "列印PToolStripButton";
-            this.列印PToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.列印PToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.列印PToolStripButton.Text = "列印(&P)";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 27);
             // 
             // 剪下UToolStripButton
             // 
@@ -520,7 +520,7 @@
             this.剪下UToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("剪下UToolStripButton.Image")));
             this.剪下UToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.剪下UToolStripButton.Name = "剪下UToolStripButton";
-            this.剪下UToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.剪下UToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.剪下UToolStripButton.Text = "剪下(&U)";
             this.剪下UToolStripButton.Click += new System.EventHandler(this.剪下UToolStripButton_Click);
             // 
@@ -530,7 +530,7 @@
             this.複製CToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("複製CToolStripButton.Image")));
             this.複製CToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.複製CToolStripButton.Name = "複製CToolStripButton";
-            this.複製CToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.複製CToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.複製CToolStripButton.Text = "複製(&C)";
             this.複製CToolStripButton.Click += new System.EventHandler(this.複製CToolStripButton_Click);
             // 
@@ -540,14 +540,14 @@
             this.貼上PToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("貼上PToolStripButton.Image")));
             this.貼上PToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.貼上PToolStripButton.Name = "貼上PToolStripButton";
-            this.貼上PToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.貼上PToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.貼上PToolStripButton.Text = "貼上(&P)";
             this.貼上PToolStripButton.Click += new System.EventHandler(this.貼上PToolStripButton_Click);
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 31);
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 27);
             // 
             // 說明LToolStripButton
             // 
@@ -555,7 +555,7 @@
             this.說明LToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("說明LToolStripButton.Image")));
             this.說明LToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.說明LToolStripButton.Name = "說明LToolStripButton";
-            this.說明LToolStripButton.Size = new System.Drawing.Size(29, 28);
+            this.說明LToolStripButton.Size = new System.Drawing.Size(29, 24);
             this.說明LToolStripButton.Text = "說明(&L)";
             this.說明LToolStripButton.Click += new System.EventHandler(this.說明LToolStripButton_Click);
             // 
@@ -634,11 +634,11 @@
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(0, 55);
+            this.textBox1.Location = new System.Drawing.Point(0, 54);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBox1.Size = new System.Drawing.Size(780, 395);
+            this.textBox1.Size = new System.Drawing.Size(780, 396);
             this.textBox1.TabIndex = 5;
             // 
             // Notepad

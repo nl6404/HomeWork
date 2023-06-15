@@ -121,7 +121,6 @@
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(140, 34);
             this.txtName.TabIndex = 7;
-            this.txtName.Text = "0";
             this.txtName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtChi

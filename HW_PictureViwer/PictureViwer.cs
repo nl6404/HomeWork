@@ -18,7 +18,6 @@ namespace HW_PictureViwer
         public PictureViwer()
         {
             InitializeComponent();
-            //MessageBox.Show("IU我婆", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
         private void ShowPicture(Image image)

@@ -68,7 +68,7 @@ namespace XOGame
 
         private bool CheckWin(char player)
         {
-            // 檢查行
+            // 檢查行 直行橫列
             for (int row = 0; row < 3; row++)
             {
                 if (gameBoard[row, 0] == player && gameBoard[row, 1] == player && gameBoard[row, 2] == player)

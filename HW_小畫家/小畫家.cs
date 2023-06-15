@@ -24,15 +24,16 @@ namespace HW_小畫家
             InitializeComponent();
             pen = new Pen(penColor, penPoint);
             bmp = new Bitmap(this.Width, this.Height);
-            g = Graphics.FromImage(bmp);
+            g = Graphics.FromImage(bmp);            
             pictureBox1.Size = new Size(this.Width, this.Height);
-            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Location = new Point(0, menuStrip1.Height);
 
             penColor = Color.Black;
             penPoint = 1;
             pictureBox1.Image = bmp;
             pictureBox1.Refresh();
         }
+                
 
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {
@@ -42,9 +43,8 @@ namespace HW_小畫家
 
         private void btnColor_Click(object sender, EventArgs e)
         {
-            var colorDialog = new ColorDialog();
-            if (colorDialog.ShowDialog() == DialogResult.OK)
-                penColor = colorDialog.Color;
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+                penColor = colorDialog1.Color;
             labColor.BackColor = penColor;
         }
 
@@ -58,6 +58,51 @@ namespace HW_小畫家
                 pictureBox1.Image = bmp;
                 x0 = e.X;
                 y0 = e.Y;
+            }
+        }
+
+        private void 新增NToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bmp = new Bitmap(this.Width, this.Height);
+            g = Graphics.FromImage(bmp);
+            pictureBox1.Size = new Size(this.Width, this.Height);
+            pictureBox1.Location = new Point(0, menuStrip1.Height);
+
+            pictureBox1.Image = bmp;
+            pictureBox1.Refresh();
+        }
+
+        private void 開啟OToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Load(openFileDialog1.FileName);
+            }
+        }
+
+        private void 儲存SToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.FileName == "")
+            {
+                if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                {
+                    Bitmap bmp = new Bitmap(pictureBox1.Image);
+                    bmp.Save(saveFileDialog1.FileName);
+                }
+            }
+            else
+            {
+                Bitmap bmp = new Bitmap(pictureBox1.Image);
+                bmp.Save(saveFileDialog1.FileName);
+            }
+        }
+
+        private void 另存新檔AToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                Bitmap bmp = new Bitmap(pictureBox1.Image);
+                bmp.Save(saveFileDialog1.FileName);
             }
         }
 
