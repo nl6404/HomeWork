@@ -81,7 +81,7 @@
             btnAlarm.Location = new System.Drawing.Point(0, 644);
             btnAlarm.Margin = new System.Windows.Forms.Padding(5);
             btnAlarm.Name = "btnAlarm";
-            btnAlarm.Size = new System.Drawing.Size(130, 40);
+            btnAlarm.Size = new System.Drawing.Size(109, 40);
             btnAlarm.TabIndex = 14;
             btnAlarm.Text = "Alarm";
             btnAlarm.UseVisualStyleBackColor = false;
@@ -99,7 +99,7 @@
             btnHello.Location = new System.Drawing.Point(0, 18);
             btnHello.Margin = new System.Windows.Forms.Padding(5);
             btnHello.Name = "btnHello";
-            btnHello.Size = new System.Drawing.Size(130, 40);
+            btnHello.Size = new System.Drawing.Size(109, 40);
             btnHello.TabIndex = 0;
             btnHello.Text = "Hello";
             btnHello.UseVisualStyleBackColor = false;
@@ -117,7 +117,7 @@
             btnGuess.Location = new System.Drawing.Point(0, 596);
             btnGuess.Margin = new System.Windows.Forms.Padding(5);
             btnGuess.Name = "btnGuess";
-            btnGuess.Size = new System.Drawing.Size(130, 40);
+            btnGuess.Size = new System.Drawing.Size(109, 40);
             btnGuess.TabIndex = 13;
             btnGuess.Text = "Guess";
             btnGuess.UseVisualStyleBackColor = false;
@@ -135,7 +135,7 @@
             btnLoan.Location = new System.Drawing.Point(0, 66);
             btnLoan.Margin = new System.Windows.Forms.Padding(5);
             btnLoan.Name = "btnLoan";
-            btnLoan.Size = new System.Drawing.Size(130, 40);
+            btnLoan.Size = new System.Drawing.Size(109, 40);
             btnLoan.TabIndex = 2;
             btnLoan.Text = "Loan";
             btnLoan.UseVisualStyleBackColor = false;
@@ -153,7 +153,7 @@
             btnPictureViewer.Location = new System.Drawing.Point(0, 548);
             btnPictureViewer.Margin = new System.Windows.Forms.Padding(5);
             btnPictureViewer.Name = "btnPictureViewer";
-            btnPictureViewer.Size = new System.Drawing.Size(130, 40);
+            btnPictureViewer.Size = new System.Drawing.Size(109, 40);
             btnPictureViewer.TabIndex = 12;
             btnPictureViewer.Text = "Picture Viewer";
             btnPictureViewer.UseVisualStyleBackColor = false;
@@ -171,7 +171,7 @@
             btnPOS.Location = new System.Drawing.Point(0, 114);
             btnPOS.Margin = new System.Windows.Forms.Padding(5);
             btnPOS.Name = "btnPOS";
-            btnPOS.Size = new System.Drawing.Size(130, 40);
+            btnPOS.Size = new System.Drawing.Size(109, 40);
             btnPOS.TabIndex = 1;
             btnPOS.Text = "POS";
             btnPOS.UseVisualStyleBackColor = false;
@@ -189,7 +189,7 @@
             btnDraw.Location = new System.Drawing.Point(0, 500);
             btnDraw.Margin = new System.Windows.Forms.Padding(5);
             btnDraw.Name = "btnDraw";
-            btnDraw.Size = new System.Drawing.Size(130, 40);
+            btnDraw.Size = new System.Drawing.Size(109, 40);
             btnDraw.TabIndex = 11;
             btnDraw.Text = "小畫家";
             btnDraw.UseVisualStyleBackColor = false;
@@ -207,7 +207,7 @@
             btnStudent_StructForm.Location = new System.Drawing.Point(0, 162);
             btnStudent_StructForm.Margin = new System.Windows.Forms.Padding(5);
             btnStudent_StructForm.Name = "btnStudent_StructForm";
-            btnStudent_StructForm.Size = new System.Drawing.Size(130, 40);
+            btnStudent_StructForm.Size = new System.Drawing.Size(109, 40);
             btnStudent_StructForm.TabIndex = 3;
             btnStudent_StructForm.Text = "Student_StructForm";
             btnStudent_StructForm.UseVisualStyleBackColor = false;
@@ -225,7 +225,7 @@
             btnNotepad.Location = new System.Drawing.Point(0, 452);
             btnNotepad.Margin = new System.Windows.Forms.Padding(5);
             btnNotepad.Name = "btnNotepad";
-            btnNotepad.Size = new System.Drawing.Size(130, 40);
+            btnNotepad.Size = new System.Drawing.Size(109, 40);
             btnNotepad.TabIndex = 10;
             btnNotepad.Text = "Notepad";
             btnNotepad.UseVisualStyleBackColor = false;
@@ -243,7 +243,7 @@
             btnStudentGrade.Location = new System.Drawing.Point(0, 210);
             btnStudentGrade.Margin = new System.Windows.Forms.Padding(5);
             btnStudentGrade.Name = "btnStudentGrade";
-            btnStudentGrade.Size = new System.Drawing.Size(130, 40);
+            btnStudentGrade.Size = new System.Drawing.Size(109, 40);
             btnStudentGrade.TabIndex = 4;
             btnStudentGrade.Text = "StudentGrade";
             btnStudentGrade.UseVisualStyleBackColor = false;
@@ -261,7 +261,7 @@
             btnScreenSaver.Location = new System.Drawing.Point(0, 404);
             btnScreenSaver.Margin = new System.Windows.Forms.Padding(5);
             btnScreenSaver.Name = "btnScreenSaver";
-            btnScreenSaver.Size = new System.Drawing.Size(130, 40);
+            btnScreenSaver.Size = new System.Drawing.Size(109, 40);
             btnScreenSaver.TabIndex = 1;
             btnScreenSaver.Text = "Screen Saver";
             btnScreenSaver.UseVisualStyleBackColor = false;
@@ -279,7 +279,7 @@
             btnXOGame.Location = new System.Drawing.Point(0, 356);
             btnXOGame.Margin = new System.Windows.Forms.Padding(5);
             btnXOGame.Name = "btnXOGame";
-            btnXOGame.Size = new System.Drawing.Size(130, 40);
+            btnXOGame.Size = new System.Drawing.Size(109, 40);
             btnXOGame.TabIndex = 9;
             btnXOGame.Text = "XOGame";
             btnXOGame.UseVisualStyleBackColor = false;
@@ -297,7 +297,7 @@
             btnForDoWhile.Location = new System.Drawing.Point(0, 308);
             btnForDoWhile.Margin = new System.Windows.Forms.Padding(5);
             btnForDoWhile.Name = "btnForDoWhile";
-            btnForDoWhile.Size = new System.Drawing.Size(130, 40);
+            btnForDoWhile.Size = new System.Drawing.Size(109, 40);
             btnForDoWhile.TabIndex = 8;
             btnForDoWhile.Text = "ForDoWhile";
             btnForDoWhile.UseVisualStyleBackColor = false;
@@ -315,7 +315,7 @@
             btnMyClac.Location = new System.Drawing.Point(0, 260);
             btnMyClac.Margin = new System.Windows.Forms.Padding(5);
             btnMyClac.Name = "btnMyClac";
-            btnMyClac.Size = new System.Drawing.Size(130, 40);
+            btnMyClac.Size = new System.Drawing.Size(109, 40);
             btnMyClac.TabIndex = 7;
             btnMyClac.Text = "MyClac";
             btnMyClac.UseVisualStyleBackColor = false;
@@ -374,7 +374,7 @@
             this.splitContainer2.Panel1.AutoScroll = true;
             this.splitContainer2.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.splitContainer2.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer2.Panel1.BackgroundImage")));
-            this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer2.Panel1.Controls.Add(btnAlarm);
             this.splitContainer2.Panel1.Controls.Add(btnHello);
             this.splitContainer2.Panel1.Controls.Add(btnGuess);
