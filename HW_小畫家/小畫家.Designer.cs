@@ -55,11 +55,12 @@
             // 
             this.trackBar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.trackBar.Location = new System.Drawing.Point(875, 159);
+            this.trackBar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.trackBar.Maximum = 100;
             this.trackBar.Minimum = 1;
             this.trackBar.Name = "trackBar";
             this.trackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar.Size = new System.Drawing.Size(56, 233);
+            this.trackBar.Size = new System.Drawing.Size(56, 232);
             this.trackBar.TabIndex = 0;
             this.trackBar.TickFrequency = 10;
             this.trackBar.Value = 1;
@@ -70,7 +71,7 @@
             this.labRange.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labRange.AutoSize = true;
             this.labRange.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labRange.Location = new System.Drawing.Point(870, 395);
+            this.labRange.Location = new System.Drawing.Point(869, 395);
             this.labRange.Name = "labRange";
             this.labRange.Size = new System.Drawing.Size(24, 25);
             this.labRange.TabIndex = 1;
@@ -82,8 +83,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Location = new System.Drawing.Point(0, 30);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(943, 536);
+            this.pictureBox1.Size = new System.Drawing.Size(943, 525);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
@@ -94,6 +96,7 @@
             this.btnColor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnColor.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.btnColor.Location = new System.Drawing.Point(847, 54);
+            this.btnColor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnColor.Name = "btnColor";
             this.btnColor.Size = new System.Drawing.Size(84, 46);
             this.btnColor.TabIndex = 3;
@@ -118,6 +121,7 @@
             this.檔案FToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip1.Size = new System.Drawing.Size(943, 27);
             this.menuStrip1.TabIndex = 5;
             this.menuStrip1.Text = "menuStrip1";
@@ -133,7 +137,7 @@
             this.toolStripSeparator1,
             this.結束XToolStripMenuItem});
             this.檔案FToolStripMenuItem.Name = "檔案FToolStripMenuItem";
-            this.檔案FToolStripMenuItem.Size = new System.Drawing.Size(71, 24);
+            this.檔案FToolStripMenuItem.Size = new System.Drawing.Size(71, 23);
             this.檔案FToolStripMenuItem.Text = "檔案(&F)";
             // 
             // 新增NToolStripMenuItem
@@ -142,7 +146,7 @@
             this.新增NToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.新增NToolStripMenuItem.Name = "新增NToolStripMenuItem";
             this.新增NToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.新增NToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.新增NToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.新增NToolStripMenuItem.Text = "新增(&N)";
             this.新增NToolStripMenuItem.Click += new System.EventHandler(this.新增NToolStripMenuItem_Click);
             // 
@@ -152,14 +156,14 @@
             this.開啟OToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.開啟OToolStripMenuItem.Name = "開啟OToolStripMenuItem";
             this.開啟OToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.開啟OToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.開啟OToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.開啟OToolStripMenuItem.Text = "開啟(&O)";
             this.開啟OToolStripMenuItem.Click += new System.EventHandler(this.開啟OToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(198, 6);
             // 
             // 儲存SToolStripMenuItem
             // 
@@ -167,26 +171,26 @@
             this.儲存SToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.儲存SToolStripMenuItem.Name = "儲存SToolStripMenuItem";
             this.儲存SToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.儲存SToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.儲存SToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.儲存SToolStripMenuItem.Text = "儲存(&S)";
             this.儲存SToolStripMenuItem.Click += new System.EventHandler(this.儲存SToolStripMenuItem_Click);
             // 
             // 另存新檔AToolStripMenuItem
             // 
             this.另存新檔AToolStripMenuItem.Name = "另存新檔AToolStripMenuItem";
-            this.另存新檔AToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.另存新檔AToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.另存新檔AToolStripMenuItem.Text = "另存新檔(&A)";
             this.另存新檔AToolStripMenuItem.Click += new System.EventHandler(this.另存新檔AToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(198, 6);
             // 
             // 結束XToolStripMenuItem
             // 
             this.結束XToolStripMenuItem.Name = "結束XToolStripMenuItem";
-            this.結束XToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.結束XToolStripMenuItem.Size = new System.Drawing.Size(201, 26);
             this.結束XToolStripMenuItem.Text = "結束(&X)";
             // 
             // openFileDialog1
@@ -202,13 +206,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(943, 566);
+            this.ClientSize = new System.Drawing.Size(943, 554);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.labColor);
             this.Controls.Add(this.btnColor);
             this.Controls.Add(this.labRange);
             this.Controls.Add(this.trackBar);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "小畫家";
             this.Text = "小畫家";
             ((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();

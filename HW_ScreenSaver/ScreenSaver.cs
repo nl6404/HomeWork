@@ -65,7 +65,6 @@ namespace HW_ScreenSaver
         {
             MouseSiteX = MousePosition.X;
             MouseSiteY = MousePosition.Y;
-
         }
               
 

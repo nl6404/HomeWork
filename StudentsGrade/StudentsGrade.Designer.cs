@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentsGrade));
             this.labName = new System.Windows.Forms.Label();
             this.labChi = new System.Windows.Forms.Label();
             this.labEng = new System.Windows.Forms.Label();
@@ -45,7 +46,9 @@
             this.labStatistics = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.labdata = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // labName
@@ -178,7 +181,9 @@
             // 
             // labtitle
             // 
+            this.labtitle.BackColor = System.Drawing.Color.Transparent;
             this.labtitle.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labtitle.ForeColor = System.Drawing.Color.White;
             this.labtitle.Location = new System.Drawing.Point(3, 4);
             this.labtitle.Name = "labtitle";
             this.labtitle.Size = new System.Drawing.Size(567, 30);
@@ -187,16 +192,19 @@
             // 
             // labStatistics
             // 
-            this.labStatistics.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.labStatistics.BackColor = System.Drawing.Color.Transparent;
             this.labStatistics.Font = new System.Drawing.Font("Courier New", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labStatistics.Location = new System.Drawing.Point(252, 409);
+            this.labStatistics.ForeColor = System.Drawing.Color.White;
+            this.labStatistics.Location = new System.Drawing.Point(3, 0);
             this.labStatistics.Name = "labStatistics";
-            this.labStatistics.Size = new System.Drawing.Size(591, 120);
+            this.labStatistics.Size = new System.Drawing.Size(588, 96);
             this.labStatistics.TabIndex = 14;
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.labdata);
             this.panel1.Controls.Add(this.labtitle);
@@ -208,22 +216,35 @@
             // labdata
             // 
             this.labdata.AutoSize = true;
+            this.labdata.BackColor = System.Drawing.Color.Transparent;
             this.labdata.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.labdata.Font = new System.Drawing.Font("Courier New", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labdata.ForeColor = System.Drawing.Color.White;
             this.labdata.Location = new System.Drawing.Point(1, 27);
             this.labdata.Name = "labdata";
             this.labdata.Size = new System.Drawing.Size(2, 18);
             this.labdata.TabIndex = 0;
             this.labdata.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
+            // panel2
+            // 
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.labStatistics);
+            this.panel2.Location = new System.Drawing.Point(252, 402);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(591, 133);
+            this.panel2.TabIndex = 14;
+            // 
             // StudentsGrade
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(855, 538);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.labStatistics);
             this.Controls.Add(this.btnRandom20);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnStatistics);
@@ -237,10 +258,12 @@
             this.Controls.Add(this.labEng);
             this.Controls.Add(this.labChi);
             this.Controls.Add(this.labName);
+            this.Controls.Add(this.panel2);
             this.Name = "StudentsGrade";
             this.Text = "StudentsGrade";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,6 +288,7 @@
         private System.Windows.Forms.Label labStatistics;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label labdata;
+        private System.Windows.Forms.Panel panel2;
     }
 }
 

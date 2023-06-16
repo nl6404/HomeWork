@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loan));
             this.labCount = new System.Windows.Forms.Label();
             this.labYear = new System.Windows.Forms.Label();
             this.labInterestRate = new System.Windows.Forms.Label();
@@ -44,7 +45,9 @@
             // labCount
             // 
             this.labCount.AutoSize = true;
+            this.labCount.BackColor = System.Drawing.Color.Gold;
             this.labCount.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labCount.ForeColor = System.Drawing.Color.Black;
             this.labCount.Location = new System.Drawing.Point(123, 49);
             this.labCount.Name = "labCount";
             this.labCount.Size = new System.Drawing.Size(137, 38);
@@ -55,7 +58,9 @@
             // labYear
             // 
             this.labYear.AutoSize = true;
+            this.labYear.BackColor = System.Drawing.Color.Gold;
             this.labYear.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labYear.ForeColor = System.Drawing.Color.Black;
             this.labYear.Location = new System.Drawing.Point(123, 116);
             this.labYear.Name = "labYear";
             this.labYear.Size = new System.Drawing.Size(129, 38);
@@ -66,7 +71,9 @@
             // labInterestRate
             // 
             this.labInterestRate.AutoSize = true;
+            this.labInterestRate.BackColor = System.Drawing.Color.Gold;
             this.labInterestRate.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labInterestRate.ForeColor = System.Drawing.Color.Black;
             this.labInterestRate.Location = new System.Drawing.Point(123, 181);
             this.labInterestRate.Name = "labInterestRate";
             this.labInterestRate.Size = new System.Drawing.Size(126, 38);
@@ -77,7 +84,9 @@
             // labDownPayment
             // 
             this.labDownPayment.AutoSize = true;
+            this.labDownPayment.BackColor = System.Drawing.Color.Gold;
             this.labDownPayment.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labDownPayment.ForeColor = System.Drawing.Color.Black;
             this.labDownPayment.Location = new System.Drawing.Point(123, 242);
             this.labDownPayment.Name = "labDownPayment";
             this.labDownPayment.Size = new System.Drawing.Size(107, 38);
@@ -159,6 +168,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(704, 428);
             this.Controls.Add(this.btnReport);
             this.Controls.Add(this.btnCount);

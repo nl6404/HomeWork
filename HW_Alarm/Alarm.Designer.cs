@@ -29,9 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Alarm));
             this.TimerTime = new System.Windows.Forms.Timer(this.components);
             this.labTime = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.labSecond = new System.Windows.Forms.Label();
+            this.cmbSecond = new System.Windows.Forms.ComboBox();
             this.btnSet = new System.Windows.Forms.Button();
             this.labMinute = new System.Windows.Forms.Label();
             this.cmbMinute = new System.Windows.Forms.ComboBox();
@@ -40,13 +44,10 @@
             this.labTimeTitle = new System.Windows.Forms.Label();
             this.labRemaining = new System.Windows.Forms.Label();
             this.labShowRemaining = new System.Windows.Forms.Label();
-            this.labSecond = new System.Windows.Forms.Label();
-            this.cmbSecond = new System.Windows.Forms.ComboBox();
             this.labDateTitle = new System.Windows.Forms.Label();
             this.labDate = new System.Windows.Forms.Label();
             this.timerDate = new System.Windows.Forms.Timer(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.btnCancel = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +60,9 @@
             // labTime
             // 
             this.labTime.AutoSize = true;
+            this.labTime.BackColor = System.Drawing.Color.Transparent;
             this.labTime.Font = new System.Drawing.Font("微軟正黑體", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labTime.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.labTime.Location = new System.Drawing.Point(368, 72);
             this.labTime.Name = "labTime";
             this.labTime.Size = new System.Drawing.Size(247, 47);
@@ -68,6 +71,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.btnCancel);
             this.groupBox1.Controls.Add(this.labSecond);
             this.groupBox1.Controls.Add(this.cmbSecond);
@@ -77,6 +81,7 @@
             this.groupBox1.Controls.Add(this.labHour);
             this.groupBox1.Controls.Add(this.cmbHour);
             this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(89, 139);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
@@ -86,9 +91,42 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "設定鬧鐘";
             // 
+            // btnCancel
+            // 
+            this.btnCancel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnCancel.ForeColor = System.Drawing.Color.Black;
+            this.btnCancel.Location = new System.Drawing.Point(321, 124);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(183, 45);
+            this.btnCancel.TabIndex = 7;
+            this.btnCancel.Text = "關閉鬧鐘";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // labSecond
+            // 
+            this.labSecond.AutoSize = true;
+            this.labSecond.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labSecond.Location = new System.Drawing.Point(537, 53);
+            this.labSecond.Name = "labSecond";
+            this.labSecond.Size = new System.Drawing.Size(47, 38);
+            this.labSecond.TabIndex = 6;
+            this.labSecond.Text = "秒";
+            // 
+            // cmbSecond
+            // 
+            this.cmbSecond.FormattingEnabled = true;
+            this.cmbSecond.Location = new System.Drawing.Point(405, 50);
+            this.cmbSecond.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cmbSecond.Name = "cmbSecond";
+            this.cmbSecond.Size = new System.Drawing.Size(127, 42);
+            this.cmbSecond.TabIndex = 5;
+            // 
             // btnSet
             // 
             this.btnSet.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSet.ForeColor = System.Drawing.Color.Black;
             this.btnSet.Location = new System.Drawing.Point(117, 124);
             this.btnSet.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnSet.Name = "btnSet";
@@ -139,7 +177,9 @@
             // labTimeTitle
             // 
             this.labTimeTitle.AutoSize = true;
+            this.labTimeTitle.BackColor = System.Drawing.Color.Transparent;
             this.labTimeTitle.Font = new System.Drawing.Font("微軟正黑體", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labTimeTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.labTimeTitle.Location = new System.Drawing.Point(185, 72);
             this.labTimeTitle.Name = "labTimeTitle";
             this.labTimeTitle.Size = new System.Drawing.Size(177, 47);
@@ -149,7 +189,9 @@
             // labRemaining
             // 
             this.labRemaining.AutoSize = true;
+            this.labRemaining.BackColor = System.Drawing.Color.Transparent;
             this.labRemaining.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labRemaining.ForeColor = System.Drawing.Color.White;
             this.labRemaining.Location = new System.Drawing.Point(101, 347);
             this.labRemaining.Name = "labRemaining";
             this.labRemaining.Size = new System.Drawing.Size(354, 38);
@@ -159,37 +201,21 @@
             // labShowRemaining
             // 
             this.labShowRemaining.AutoSize = true;
+            this.labShowRemaining.BackColor = System.Drawing.Color.Transparent;
             this.labShowRemaining.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labShowRemaining.ForeColor = System.Drawing.Color.Red;
+            this.labShowRemaining.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.labShowRemaining.Location = new System.Drawing.Point(461, 347);
             this.labShowRemaining.Name = "labShowRemaining";
             this.labShowRemaining.Size = new System.Drawing.Size(238, 38);
             this.labShowRemaining.TabIndex = 4;
             this.labShowRemaining.Text = "_________________";
             // 
-            // labSecond
-            // 
-            this.labSecond.AutoSize = true;
-            this.labSecond.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labSecond.Location = new System.Drawing.Point(537, 53);
-            this.labSecond.Name = "labSecond";
-            this.labSecond.Size = new System.Drawing.Size(47, 38);
-            this.labSecond.TabIndex = 6;
-            this.labSecond.Text = "秒";
-            // 
-            // cmbSecond
-            // 
-            this.cmbSecond.FormattingEnabled = true;
-            this.cmbSecond.Location = new System.Drawing.Point(405, 50);
-            this.cmbSecond.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.cmbSecond.Name = "cmbSecond";
-            this.cmbSecond.Size = new System.Drawing.Size(127, 42);
-            this.cmbSecond.TabIndex = 5;
-            // 
             // labDateTitle
             // 
             this.labDateTitle.AutoSize = true;
+            this.labDateTitle.BackColor = System.Drawing.Color.Transparent;
             this.labDateTitle.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labDateTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.labDateTitle.Location = new System.Drawing.Point(14, 19);
             this.labDateTitle.Name = "labDateTitle";
             this.labDateTitle.Size = new System.Drawing.Size(78, 36);
@@ -199,7 +225,9 @@
             // labDate
             // 
             this.labDate.AutoSize = true;
+            this.labDate.BackColor = System.Drawing.Color.Transparent;
             this.labDate.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.labDate.Location = new System.Drawing.Point(88, 19);
             this.labDate.Name = "labDate";
             this.labDate.Size = new System.Drawing.Size(191, 36);
@@ -216,23 +244,13 @@
             // 
             this.timer1.Interval = 500;
             // 
-            // btnCancel
-            // 
-            this.btnCancel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnCancel.Location = new System.Drawing.Point(321, 124);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(183, 45);
-            this.btnCancel.TabIndex = 7;
-            this.btnCancel.Text = "關閉鬧鐘";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
-            // 
             // Alarm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 409);
             this.Controls.Add(this.labDateTitle);
             this.Controls.Add(this.labDate);

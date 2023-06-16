@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Report));
             this.labMonthCount = new System.Windows.Forms.Label();
             this.labInterestRate = new System.Windows.Forms.Label();
             this.labYear = new System.Windows.Forms.Label();
@@ -44,8 +45,10 @@
             // labMonthCount
             // 
             this.labMonthCount.AutoSize = true;
+            this.labMonthCount.BackColor = System.Drawing.Color.Transparent;
             this.labMonthCount.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labMonthCount.Location = new System.Drawing.Point(180, 247);
+            this.labMonthCount.ForeColor = System.Drawing.Color.White;
+            this.labMonthCount.Location = new System.Drawing.Point(237, 242);
             this.labMonthCount.Name = "labMonthCount";
             this.labMonthCount.Size = new System.Drawing.Size(123, 38);
             this.labMonthCount.TabIndex = 11;
@@ -55,8 +58,10 @@
             // labInterestRate
             // 
             this.labInterestRate.AutoSize = true;
+            this.labInterestRate.BackColor = System.Drawing.Color.Transparent;
             this.labInterestRate.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labInterestRate.Location = new System.Drawing.Point(180, 186);
+            this.labInterestRate.ForeColor = System.Drawing.Color.White;
+            this.labInterestRate.Location = new System.Drawing.Point(237, 181);
             this.labInterestRate.Name = "labInterestRate";
             this.labInterestRate.Size = new System.Drawing.Size(142, 38);
             this.labInterestRate.TabIndex = 10;
@@ -66,8 +71,10 @@
             // labYear
             // 
             this.labYear.AutoSize = true;
+            this.labYear.BackColor = System.Drawing.Color.Transparent;
             this.labYear.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labYear.Location = new System.Drawing.Point(180, 121);
+            this.labYear.ForeColor = System.Drawing.Color.White;
+            this.labYear.Location = new System.Drawing.Point(237, 116);
             this.labYear.Name = "labYear";
             this.labYear.Size = new System.Drawing.Size(145, 38);
             this.labYear.TabIndex = 9;
@@ -77,8 +84,10 @@
             // labCount
             // 
             this.labCount.AutoSize = true;
+            this.labCount.BackColor = System.Drawing.Color.Transparent;
             this.labCount.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labCount.Location = new System.Drawing.Point(180, 54);
+            this.labCount.ForeColor = System.Drawing.Color.White;
+            this.labCount.Location = new System.Drawing.Point(237, 49);
             this.labCount.Name = "labCount";
             this.labCount.Size = new System.Drawing.Size(153, 38);
             this.labCount.TabIndex = 8;
@@ -88,8 +97,10 @@
             // labAllCount
             // 
             this.labAllCount.AutoSize = true;
+            this.labAllCount.BackColor = System.Drawing.Color.Transparent;
             this.labAllCount.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAllCount.Location = new System.Drawing.Point(180, 304);
+            this.labAllCount.ForeColor = System.Drawing.Color.White;
+            this.labAllCount.Location = new System.Drawing.Point(237, 299);
             this.labAllCount.Name = "labAllCount";
             this.labAllCount.Size = new System.Drawing.Size(123, 38);
             this.labAllCount.TabIndex = 12;
@@ -99,9 +110,9 @@
             // btnEmail
             // 
             this.btnEmail.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnEmail.Location = new System.Drawing.Point(578, 348);
+            this.btnEmail.Location = new System.Drawing.Point(593, 365);
             this.btnEmail.Name = "btnEmail";
-            this.btnEmail.Size = new System.Drawing.Size(171, 70);
+            this.btnEmail.Size = new System.Drawing.Size(132, 49);
             this.btnEmail.TabIndex = 13;
             this.btnEmail.Text = "Email";
             this.btnEmail.UseVisualStyleBackColor = true;
@@ -109,9 +120,11 @@
             // labAnsAll
             // 
             this.labAnsAll.AutoSize = true;
+            this.labAnsAll.BackColor = System.Drawing.Color.Transparent;
             this.labAnsAll.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labAnsAll.Font = new System.Drawing.Font("微軟正黑體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAnsAll.Location = new System.Drawing.Point(328, 304);
+            this.labAnsAll.ForeColor = System.Drawing.Color.White;
+            this.labAnsAll.Location = new System.Drawing.Point(385, 299);
             this.labAnsAll.Name = "labAnsAll";
             this.labAnsAll.Size = new System.Drawing.Size(2, 40);
             this.labAnsAll.TabIndex = 18;
@@ -120,9 +133,11 @@
             // labAnsMonth
             // 
             this.labAnsMonth.AutoSize = true;
+            this.labAnsMonth.BackColor = System.Drawing.Color.Transparent;
             this.labAnsMonth.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labAnsMonth.Font = new System.Drawing.Font("微軟正黑體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAnsMonth.Location = new System.Drawing.Point(328, 247);
+            this.labAnsMonth.ForeColor = System.Drawing.Color.White;
+            this.labAnsMonth.Location = new System.Drawing.Point(385, 242);
             this.labAnsMonth.Name = "labAnsMonth";
             this.labAnsMonth.Size = new System.Drawing.Size(2, 40);
             this.labAnsMonth.TabIndex = 17;
@@ -131,9 +146,11 @@
             // labAnsRate
             // 
             this.labAnsRate.AutoSize = true;
+            this.labAnsRate.BackColor = System.Drawing.Color.Transparent;
             this.labAnsRate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labAnsRate.Font = new System.Drawing.Font("微軟正黑體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAnsRate.Location = new System.Drawing.Point(328, 186);
+            this.labAnsRate.ForeColor = System.Drawing.Color.White;
+            this.labAnsRate.Location = new System.Drawing.Point(385, 181);
             this.labAnsRate.Name = "labAnsRate";
             this.labAnsRate.Size = new System.Drawing.Size(2, 40);
             this.labAnsRate.TabIndex = 16;
@@ -142,9 +159,11 @@
             // labAnsYear
             // 
             this.labAnsYear.AutoSize = true;
+            this.labAnsYear.BackColor = System.Drawing.Color.Transparent;
             this.labAnsYear.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labAnsYear.Font = new System.Drawing.Font("微軟正黑體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAnsYear.Location = new System.Drawing.Point(328, 121);
+            this.labAnsYear.ForeColor = System.Drawing.Color.White;
+            this.labAnsYear.Location = new System.Drawing.Point(385, 116);
             this.labAnsYear.Name = "labAnsYear";
             this.labAnsYear.Size = new System.Drawing.Size(2, 40);
             this.labAnsYear.TabIndex = 15;
@@ -153,9 +172,11 @@
             // labAnsCount
             // 
             this.labAnsCount.AutoSize = true;
+            this.labAnsCount.BackColor = System.Drawing.Color.Transparent;
             this.labAnsCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.labAnsCount.Font = new System.Drawing.Font("微軟正黑體", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labAnsCount.Location = new System.Drawing.Point(328, 54);
+            this.labAnsCount.ForeColor = System.Drawing.Color.White;
+            this.labAnsCount.Location = new System.Drawing.Point(385, 49);
             this.labAnsCount.Name = "labAnsCount";
             this.labAnsCount.Size = new System.Drawing.Size(2, 40);
             this.labAnsCount.TabIndex = 14;
@@ -166,6 +187,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.labAnsAll);
             this.Controls.Add(this.labAnsMonth);

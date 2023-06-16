@@ -26,8 +26,19 @@ namespace HW_MyClac
             if (isValidNumber1 && isValidNumber2)
             {
                 double result= operation(num1, num2);
-                string Result2 = result.ToString("0.000");
-                txtAnswer.Text = Result2;
+                string resultString;
+                if (Math.Truncate(result) == result)
+                {
+                    // 結果為整數
+                    resultString = result.ToString("0");
+                }
+                else
+                {
+                    // 結果為浮點數
+                    resultString = result.ToString("0.000");
+                }
+
+                labAnswer.Text = resultString;
             }
             else
                 MessageBox.Show("請輸入數值。");

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(XOGame));
             this.labTitle = new System.Windows.Forms.Label();
             this.btn0 = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
@@ -46,7 +47,7 @@
             // 
             this.labTitle.AutoSize = true;
             this.labTitle.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labTitle.Location = new System.Drawing.Point(238, 29);
+            this.labTitle.Location = new System.Drawing.Point(152, 29);
             this.labTitle.Name = "labTitle";
             this.labTitle.Size = new System.Drawing.Size(144, 36);
             this.labTitle.TabIndex = 0;
@@ -54,10 +55,11 @@
             // 
             // btn0
             // 
-            this.btn0.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn0.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn0.ForeColor = System.Drawing.Color.Olive;
-            this.btn0.Location = new System.Drawing.Point(128, 88);
+            this.btn0.ForeColor = System.Drawing.Color.Black;
+            this.btn0.Location = new System.Drawing.Point(43, 88);
+            this.btn0.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(105, 101);
             this.btn0.TabIndex = 7;
@@ -67,10 +69,11 @@
             // 
             // btn1
             // 
-            this.btn1.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn1.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn1.ForeColor = System.Drawing.Color.Olive;
-            this.btn1.Location = new System.Drawing.Point(258, 88);
+            this.btn1.ForeColor = System.Drawing.Color.Black;
+            this.btn1.Location = new System.Drawing.Point(173, 88);
+            this.btn1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(105, 101);
             this.btn1.TabIndex = 8;
@@ -80,10 +83,11 @@
             // 
             // btn2
             // 
-            this.btn2.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn2.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn2.ForeColor = System.Drawing.Color.Olive;
-            this.btn2.Location = new System.Drawing.Point(388, 88);
+            this.btn2.ForeColor = System.Drawing.Color.Black;
+            this.btn2.Location = new System.Drawing.Point(303, 88);
+            this.btn2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(105, 101);
             this.btn2.TabIndex = 9;
@@ -93,10 +97,11 @@
             // 
             // btn5
             // 
-            this.btn5.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn5.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn5.ForeColor = System.Drawing.Color.Olive;
-            this.btn5.Location = new System.Drawing.Point(388, 205);
+            this.btn5.ForeColor = System.Drawing.Color.Black;
+            this.btn5.Location = new System.Drawing.Point(303, 205);
+            this.btn5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(105, 101);
             this.btn5.TabIndex = 12;
@@ -106,10 +111,11 @@
             // 
             // btn4
             // 
-            this.btn4.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn4.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn4.ForeColor = System.Drawing.Color.Olive;
-            this.btn4.Location = new System.Drawing.Point(258, 205);
+            this.btn4.ForeColor = System.Drawing.Color.Black;
+            this.btn4.Location = new System.Drawing.Point(173, 205);
+            this.btn4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(105, 101);
             this.btn4.TabIndex = 11;
@@ -119,10 +125,11 @@
             // 
             // btn3
             // 
-            this.btn3.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn3.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn3.ForeColor = System.Drawing.Color.Olive;
-            this.btn3.Location = new System.Drawing.Point(128, 205);
+            this.btn3.ForeColor = System.Drawing.Color.Black;
+            this.btn3.Location = new System.Drawing.Point(43, 205);
+            this.btn3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(105, 101);
             this.btn3.TabIndex = 10;
@@ -132,10 +139,11 @@
             // 
             // btn8
             // 
-            this.btn8.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn8.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn8.ForeColor = System.Drawing.Color.Olive;
-            this.btn8.Location = new System.Drawing.Point(388, 322);
+            this.btn8.ForeColor = System.Drawing.Color.Black;
+            this.btn8.Location = new System.Drawing.Point(303, 322);
+            this.btn8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(105, 101);
             this.btn8.TabIndex = 15;
@@ -145,10 +153,11 @@
             // 
             // btn7
             // 
-            this.btn7.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn7.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn7.ForeColor = System.Drawing.Color.Olive;
-            this.btn7.Location = new System.Drawing.Point(258, 322);
+            this.btn7.ForeColor = System.Drawing.Color.Black;
+            this.btn7.Location = new System.Drawing.Point(173, 322);
+            this.btn7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(105, 101);
             this.btn7.TabIndex = 14;
@@ -158,10 +167,11 @@
             // 
             // btn6
             // 
-            this.btn6.BackColor = System.Drawing.Color.LemonChiffon;
+            this.btn6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btn6.Font = new System.Drawing.Font("微軟正黑體", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn6.ForeColor = System.Drawing.Color.Olive;
-            this.btn6.Location = new System.Drawing.Point(128, 322);
+            this.btn6.ForeColor = System.Drawing.Color.Black;
+            this.btn6.Location = new System.Drawing.Point(43, 322);
+            this.btn6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(105, 101);
             this.btn6.TabIndex = 13;
@@ -172,7 +182,8 @@
             // btnReset
             // 
             this.btnReset.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnReset.Location = new System.Drawing.Point(186, 457);
+            this.btnReset.Location = new System.Drawing.Point(101, 458);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(116, 46);
             this.btnReset.TabIndex = 16;
@@ -183,7 +194,8 @@
             // btnExit
             // 
             this.btnExit.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnExit.Location = new System.Drawing.Point(318, 457);
+            this.btnExit.Location = new System.Drawing.Point(232, 458);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(116, 46);
             this.btnExit.TabIndex = 17;
@@ -195,7 +207,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(621, 554);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(446, 559);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btn8);
@@ -208,7 +222,9 @@
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.btn0);
             this.Controls.Add(this.labTitle);
+            this.DoubleBuffered = true;
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "XOGame";
             this.Text = "XOGame";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_KeyDown);

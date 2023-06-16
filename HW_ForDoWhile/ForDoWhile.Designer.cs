@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ForDoWhile));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnOddEven = new System.Windows.Forms.Button();
             this.txtNumber = new System.Windows.Forms.TextBox();
@@ -80,10 +81,12 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.btnOddEven);
             this.groupBox1.Controls.Add(this.txtNumber);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(16, 1);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -96,6 +99,7 @@
             // btnOddEven
             // 
             this.btnOddEven.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnOddEven.ForeColor = System.Drawing.Color.Black;
             this.btnOddEven.Location = new System.Drawing.Point(48, 81);
             this.btnOddEven.Margin = new System.Windows.Forms.Padding(4);
             this.btnOddEven.Name = "btnOddEven";
@@ -127,6 +131,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.labIntArr);
             this.groupBox2.Controls.Add(this.btnCc);
@@ -137,6 +142,7 @@
             this.groupBox2.Controls.Add(this.btnMaxMin);
             this.groupBox2.Controls.Add(this.btnArrOddEven);
             this.groupBox2.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(265, 1);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -170,6 +176,7 @@
             // btnCc
             // 
             this.btnCc.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnCc.ForeColor = System.Drawing.Color.Black;
             this.btnCc.Location = new System.Drawing.Point(9, 316);
             this.btnCc.Margin = new System.Windows.Forms.Padding(4);
             this.btnCc.Name = "btnCc";
@@ -182,6 +189,7 @@
             // btnMin
             // 
             this.btnMin.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMin.ForeColor = System.Drawing.Color.Black;
             this.btnMin.Location = new System.Drawing.Point(9, 198);
             this.btnMin.Margin = new System.Windows.Forms.Padding(4);
             this.btnMin.Name = "btnMin";
@@ -194,6 +202,7 @@
             // btnMax
             // 
             this.btnMax.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMax.ForeColor = System.Drawing.Color.Black;
             this.btnMax.Location = new System.Drawing.Point(9, 160);
             this.btnMax.Margin = new System.Windows.Forms.Padding(4);
             this.btnMax.Name = "btnMax";
@@ -206,6 +215,7 @@
             // btnLong
             // 
             this.btnLong.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnLong.ForeColor = System.Drawing.Color.Black;
             this.btnLong.Location = new System.Drawing.Point(9, 280);
             this.btnLong.Margin = new System.Windows.Forms.Padding(4);
             this.btnLong.Name = "btnLong";
@@ -218,6 +228,7 @@
             // btnSum
             // 
             this.btnSum.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSum.ForeColor = System.Drawing.Color.Black;
             this.btnSum.Location = new System.Drawing.Point(8, 122);
             this.btnSum.Margin = new System.Windows.Forms.Padding(4);
             this.btnSum.Name = "btnSum";
@@ -230,6 +241,7 @@
             // btnMaxMin
             // 
             this.btnMaxMin.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnMaxMin.ForeColor = System.Drawing.Color.Black;
             this.btnMaxMin.Location = new System.Drawing.Point(8, 85);
             this.btnMaxMin.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaxMin.Name = "btnMaxMin";
@@ -242,6 +254,7 @@
             // btnArrOddEven
             // 
             this.btnArrOddEven.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnArrOddEven.ForeColor = System.Drawing.Color.Black;
             this.btnArrOddEven.Location = new System.Drawing.Point(8, 48);
             this.btnArrOddEven.Margin = new System.Windows.Forms.Padding(4);
             this.btnArrOddEven.Name = "btnArrOddEven";
@@ -253,10 +266,12 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.btnbtn2Darray3);
             this.groupBox3.Controls.Add(this.btn2Darray2);
             this.groupBox3.Controls.Add(this.btn2Darray1);
             this.groupBox3.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox3.ForeColor = System.Drawing.Color.White;
             this.groupBox3.Location = new System.Drawing.Point(659, 1);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
@@ -269,6 +284,7 @@
             // btnbtn2Darray3
             // 
             this.btnbtn2Darray3.Font = new System.Drawing.Font("微軟正黑體", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnbtn2Darray3.ForeColor = System.Drawing.Color.Black;
             this.btnbtn2Darray3.Location = new System.Drawing.Point(53, 110);
             this.btnbtn2Darray3.Margin = new System.Windows.Forms.Padding(4);
             this.btnbtn2Darray3.Name = "btnbtn2Darray3";
@@ -281,6 +297,7 @@
             // btn2Darray2
             // 
             this.btn2Darray2.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn2Darray2.ForeColor = System.Drawing.Color.Black;
             this.btn2Darray2.Location = new System.Drawing.Point(8, 70);
             this.btn2Darray2.Margin = new System.Windows.Forms.Padding(4);
             this.btn2Darray2.Name = "btn2Darray2";
@@ -293,6 +310,7 @@
             // btn2Darray1
             // 
             this.btn2Darray1.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn2Darray1.ForeColor = System.Drawing.Color.Black;
             this.btn2Darray1.Location = new System.Drawing.Point(8, 30);
             this.btn2Darray1.Margin = new System.Windows.Forms.Padding(4);
             this.btn2Darray1.Name = "btn2Darray1";
@@ -304,11 +322,13 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.btnSwap);
             this.groupBox4.Controls.Add(this.btn99);
             this.groupBox4.Controls.Add(this.btnLotoo);
             this.groupBox4.Controls.Add(this.btn100);
             this.groupBox4.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox4.ForeColor = System.Drawing.Color.White;
             this.groupBox4.Location = new System.Drawing.Point(935, 1);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
@@ -321,6 +341,7 @@
             // btnSwap
             // 
             this.btnSwap.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnSwap.ForeColor = System.Drawing.Color.Black;
             this.btnSwap.Location = new System.Drawing.Point(7, 30);
             this.btnSwap.Margin = new System.Windows.Forms.Padding(4);
             this.btnSwap.Name = "btnSwap";
@@ -333,6 +354,7 @@
             // btn99
             // 
             this.btn99.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn99.ForeColor = System.Drawing.Color.Black;
             this.btn99.Location = new System.Drawing.Point(7, 112);
             this.btn99.Margin = new System.Windows.Forms.Padding(4);
             this.btn99.Name = "btn99";
@@ -345,6 +367,7 @@
             // btnLotoo
             // 
             this.btnLotoo.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnLotoo.ForeColor = System.Drawing.Color.Black;
             this.btnLotoo.Location = new System.Drawing.Point(7, 71);
             this.btnLotoo.Margin = new System.Windows.Forms.Padding(4);
             this.btnLotoo.Name = "btnLotoo";
@@ -357,6 +380,7 @@
             // btn100
             // 
             this.btn100.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn100.ForeColor = System.Drawing.Color.Black;
             this.btn100.Location = new System.Drawing.Point(7, 154);
             this.btn100.Margin = new System.Windows.Forms.Padding(4);
             this.btn100.Name = "btn100";
@@ -368,10 +392,12 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.BackColor = System.Drawing.Color.Transparent;
             this.groupBox5.Controls.Add(this.txtRows);
             this.groupBox5.Controls.Add(this.label2);
             this.groupBox5.Controls.Add(this.btnProduce);
             this.groupBox5.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox5.ForeColor = System.Drawing.Color.White;
             this.groupBox5.Location = new System.Drawing.Point(16, 155);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
@@ -404,6 +430,7 @@
             // btnProduce
             // 
             this.btnProduce.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnProduce.ForeColor = System.Drawing.Color.Black;
             this.btnProduce.Location = new System.Drawing.Point(25, 80);
             this.btnProduce.Margin = new System.Windows.Forms.Padding(4);
             this.btnProduce.Name = "btnProduce";
@@ -415,6 +442,7 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.BackColor = System.Drawing.Color.Transparent;
             this.groupBox6.Controls.Add(this.btnDo);
             this.groupBox6.Controls.Add(this.butWhile);
             this.groupBox6.Controls.Add(this.txtStep);
@@ -425,6 +453,7 @@
             this.groupBox6.Controls.Add(this.labFrom);
             this.groupBox6.Controls.Add(this.btnFor);
             this.groupBox6.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.groupBox6.ForeColor = System.Drawing.Color.White;
             this.groupBox6.Location = new System.Drawing.Point(659, 219);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox6.Name = "groupBox6";
@@ -437,6 +466,7 @@
             // btnDo
             // 
             this.btnDo.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnDo.ForeColor = System.Drawing.Color.Black;
             this.btnDo.Location = new System.Drawing.Point(200, 99);
             this.btnDo.Margin = new System.Windows.Forms.Padding(4);
             this.btnDo.Name = "btnDo";
@@ -449,6 +479,7 @@
             // butWhile
             // 
             this.butWhile.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.butWhile.ForeColor = System.Drawing.Color.Black;
             this.butWhile.Location = new System.Drawing.Point(200, 59);
             this.butWhile.Margin = new System.Windows.Forms.Padding(4);
             this.butWhile.Name = "butWhile";
@@ -524,6 +555,7 @@
             // btnFor
             // 
             this.btnFor.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnFor.ForeColor = System.Drawing.Color.Black;
             this.btnFor.Location = new System.Drawing.Point(200, 19);
             this.btnFor.Margin = new System.Windows.Forms.Padding(4);
             this.btnFor.Name = "btnFor";
@@ -548,8 +580,9 @@
             // labResult
             // 
             this.labResult.AutoSize = true;
-            this.labResult.BackColor = System.Drawing.Color.Khaki;
+            this.labResult.BackColor = System.Drawing.Color.Transparent;
             this.labResult.Font = new System.Drawing.Font("Courier New", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labResult.ForeColor = System.Drawing.Color.White;
             this.labResult.Location = new System.Drawing.Point(8, 40);
             this.labResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labResult.Name = "labResult";
@@ -560,6 +593,9 @@
             // panel1
             // 
             this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.labResulttitle);
             this.panel1.Controls.Add(this.labResult);
@@ -572,7 +608,9 @@
             // labResulttitle
             // 
             this.labResulttitle.AutoSize = true;
+            this.labResulttitle.BackColor = System.Drawing.Color.Transparent;
             this.labResulttitle.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labResulttitle.ForeColor = System.Drawing.Color.White;
             this.labResulttitle.Location = new System.Drawing.Point(1, 1);
             this.labResulttitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labResulttitle.Name = "labResulttitle";
@@ -585,6 +623,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1152, 667);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnClear);

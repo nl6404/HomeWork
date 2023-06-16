@@ -23,9 +23,9 @@ namespace HW_小畫家
         {
             InitializeComponent();
             pen = new Pen(penColor, penPoint);
-            bmp = new Bitmap(this.Width, this.Height);
+            bmp = new Bitmap(this.Width, this.Height - menuStrip1.Height);
             g = Graphics.FromImage(bmp);            
-            pictureBox1.Size = new Size(this.Width, this.Height);
+            pictureBox1.Size = new Size(this.Width, this.Height - menuStrip1.Height);
             pictureBox1.Location = new Point(0, menuStrip1.Height);
 
             penColor = Color.Black;
@@ -63,9 +63,9 @@ namespace HW_小畫家
 
         private void 新增NToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            bmp = new Bitmap(this.Width, this.Height);
+            bmp = new Bitmap(this.Width, this.Height - menuStrip1.Height);
             g = Graphics.FromImage(bmp);
-            pictureBox1.Size = new Size(this.Width, this.Height);
+            pictureBox1.Size = new Size(this.Width, this.Height - menuStrip1.Height);
             pictureBox1.Location = new Point(0, menuStrip1.Height);
 
             pictureBox1.Image = bmp;

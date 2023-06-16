@@ -51,12 +51,14 @@
             // 
             // gpb_Menu
             // 
+            this.gpb_Menu.BackColor = System.Drawing.Color.Transparent;
             this.gpb_Menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.gpb_Menu.Controls.Add(this.btnWine);
             this.gpb_Menu.Controls.Add(this.btnWhisky);
             this.gpb_Menu.Controls.Add(this.btnTequila);
             this.gpb_Menu.Controls.Add(this.btnBeer);
             this.gpb_Menu.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.gpb_Menu.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.gpb_Menu.Location = new System.Drawing.Point(28, 28);
             this.gpb_Menu.Name = "gpb_Menu";
             this.gpb_Menu.Size = new System.Drawing.Size(314, 366);
@@ -70,6 +72,7 @@
             this.btnWine.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWine.BackgroundImage")));
             this.btnWine.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnWine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWine.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnWine.Location = new System.Drawing.Point(165, 206);
             this.btnWine.Name = "btnWine";
             this.btnWine.Size = new System.Drawing.Size(131, 138);
@@ -84,6 +87,7 @@
             this.btnWhisky.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnWhisky.BackgroundImage")));
             this.btnWhisky.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnWhisky.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnWhisky.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnWhisky.Location = new System.Drawing.Point(19, 206);
             this.btnWhisky.Name = "btnWhisky";
             this.btnWhisky.Size = new System.Drawing.Size(131, 138);
@@ -98,6 +102,7 @@
             this.btnTequila.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTequila.BackgroundImage")));
             this.btnTequila.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTequila.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTequila.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnTequila.Location = new System.Drawing.Point(165, 51);
             this.btnTequila.Name = "btnTequila";
             this.btnTequila.Size = new System.Drawing.Size(131, 138);
@@ -112,6 +117,7 @@
             this.btnBeer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnBeer.BackgroundImage")));
             this.btnBeer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnBeer.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBeer.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnBeer.Location = new System.Drawing.Point(19, 51);
             this.btnBeer.Name = "btnBeer";
             this.btnBeer.Size = new System.Drawing.Size(131, 138);
@@ -122,9 +128,11 @@
             // 
             // gpbList
             // 
+            this.gpbList.BackColor = System.Drawing.Color.Transparent;
             this.gpbList.Controls.Add(this.txtMenuList);
             this.gpbList.Controls.Add(this.btnClear);
             this.gpbList.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.gpbList.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.gpbList.Location = new System.Drawing.Point(595, 35);
             this.gpbList.Name = "gpbList";
             this.gpbList.Size = new System.Drawing.Size(334, 359);
@@ -147,6 +155,7 @@
             // 
             this.btnClear.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClear.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btnClear.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnClear.Location = new System.Drawing.Point(220, 314);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(104, 39);
@@ -157,10 +166,12 @@
             // 
             // gpbPayment
             // 
+            this.gpbPayment.BackColor = System.Drawing.Color.Transparent;
             this.gpbPayment.Controls.Add(this.label1);
             this.gpbPayment.Controls.Add(this.btnCreditCard);
             this.gpbPayment.Controls.Add(this.btnCash);
             this.gpbPayment.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.gpbPayment.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.gpbPayment.Location = new System.Drawing.Point(354, 175);
             this.gpbPayment.Name = "gpbPayment";
             this.gpbPayment.Size = new System.Drawing.Size(227, 146);
@@ -182,6 +193,7 @@
             // btnCreditCard
             // 
             this.btnCreditCard.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCreditCard.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCreditCard.Location = new System.Drawing.Point(117, 59);
             this.btnCreditCard.Name = "btnCreditCard";
             this.btnCreditCard.Size = new System.Drawing.Size(95, 39);
@@ -193,6 +205,7 @@
             // btnCash
             // 
             this.btnCash.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCash.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnCash.Location = new System.Drawing.Point(16, 59);
             this.btnCash.Name = "btnCash";
             this.btnCash.Size = new System.Drawing.Size(95, 39);
@@ -203,8 +216,10 @@
             // 
             // gpbTotalPrice
             // 
+            this.gpbTotalPrice.BackColor = System.Drawing.Color.Transparent;
             this.gpbTotalPrice.Controls.Add(this.txtShowPrice);
             this.gpbTotalPrice.Font = new System.Drawing.Font("微軟正黑體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.gpbTotalPrice.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.gpbTotalPrice.Location = new System.Drawing.Point(354, 35);
             this.gpbTotalPrice.Name = "gpbTotalPrice";
             this.gpbTotalPrice.Size = new System.Drawing.Size(227, 124);
@@ -228,6 +243,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(950, 444);
             this.Controls.Add(this.gpbList);
             this.Controls.Add(this.gpbTotalPrice);

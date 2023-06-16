@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Studen_StructFrom));
             this.labName = new System.Windows.Forms.Label();
             this.labChi = new System.Windows.Forms.Label();
             this.labEng = new System.Windows.Forms.Label();
@@ -48,7 +49,9 @@
             // labName
             // 
             this.labName.AutoSize = true;
+            this.labName.BackColor = System.Drawing.Color.White;
             this.labName.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labName.ForeColor = System.Drawing.Color.Black;
             this.labName.Location = new System.Drawing.Point(80, 69);
             this.labName.Name = "labName";
             this.labName.Size = new System.Drawing.Size(78, 36);
@@ -58,7 +61,9 @@
             // labChi
             // 
             this.labChi.AutoSize = true;
+            this.labChi.BackColor = System.Drawing.Color.White;
             this.labChi.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labChi.ForeColor = System.Drawing.Color.Black;
             this.labChi.Location = new System.Drawing.Point(80, 129);
             this.labChi.Name = "labChi";
             this.labChi.Size = new System.Drawing.Size(78, 36);
@@ -68,7 +73,9 @@
             // labEng
             // 
             this.labEng.AutoSize = true;
+            this.labEng.BackColor = System.Drawing.Color.White;
             this.labEng.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labEng.ForeColor = System.Drawing.Color.Black;
             this.labEng.Location = new System.Drawing.Point(80, 189);
             this.labEng.Name = "labEng";
             this.labEng.Size = new System.Drawing.Size(78, 36);
@@ -78,7 +85,9 @@
             // labMath
             // 
             this.labMath.AutoSize = true;
+            this.labMath.BackColor = System.Drawing.Color.White;
             this.labMath.Font = new System.Drawing.Font("微軟正黑體", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labMath.ForeColor = System.Drawing.Color.Black;
             this.labMath.Location = new System.Drawing.Point(80, 249);
             this.labMath.Name = "labMath";
             this.labMath.Size = new System.Drawing.Size(78, 36);
@@ -87,9 +96,13 @@
             // 
             // gpbScores
             // 
+            this.gpbScores.BackColor = System.Drawing.Color.Transparent;
+            this.gpbScores.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("gpbScores.BackgroundImage")));
+            this.gpbScores.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.gpbScores.Controls.Add(this.labMaxMin);
             this.gpbScores.Controls.Add(this.labShowScores);
-            this.gpbScores.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.gpbScores.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.gpbScores.ForeColor = System.Drawing.Color.Black;
             this.gpbScores.Location = new System.Drawing.Point(396, 12);
             this.gpbScores.Name = "gpbScores";
             this.gpbScores.Size = new System.Drawing.Size(354, 351);
@@ -99,7 +112,9 @@
             // 
             // labMaxMin
             // 
-            this.labMaxMin.BackColor = System.Drawing.SystemColors.Control;
+            this.labMaxMin.BackColor = System.Drawing.Color.Transparent;
+            this.labMaxMin.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labMaxMin.ForeColor = System.Drawing.Color.Transparent;
             this.labMaxMin.Location = new System.Drawing.Point(12, 253);
             this.labMaxMin.Name = "labMaxMin";
             this.labMaxMin.Size = new System.Drawing.Size(332, 93);
@@ -107,7 +122,9 @@
             // 
             // labShowScores
             // 
-            this.labShowScores.BackColor = System.Drawing.SystemColors.Control;
+            this.labShowScores.BackColor = System.Drawing.Color.Transparent;
+            this.labShowScores.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labShowScores.ForeColor = System.Drawing.Color.Transparent;
             this.labShowScores.Location = new System.Drawing.Point(12, 29);
             this.labShowScores.Name = "labShowScores";
             this.labShowScores.Size = new System.Drawing.Size(332, 219);
@@ -197,6 +214,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnMaxMin);
             this.Controls.Add(this.btnSave);
